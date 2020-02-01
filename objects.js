@@ -1,4 +1,7 @@
-Object.assign({}, playlist, {Slowdive: 'Alison' }, {My Bloody Valentine: 'Sometimes' })
+var playlist = {
+  Slowdive: 'Alison',
+  My Bloody Valentine: 'Sometimes' 
+};
 
 function updatePlaylist(playlist, artistName, songTitle) {
 
